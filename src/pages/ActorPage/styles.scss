@@ -1,0 +1,38 @@
+#actor-page {
+    grid-template-columns: 2fr 5fr;
+    grid-gap: 10px;
+    margin: 40px 70px 30px 70px;
+    display: grid;
+    font-size: 22px;
+
+    img {
+        width: 85%;
+        object-fit: contain;
+        margin: 35px 0px;
+      }
+      
+      .text {
+        margin: 0px 20px;
+      }
+      
+      p {
+        margin-right: 150px;
+        margin-top: 20px;
+      }
+      
+      .title {
+        font-size: 32px;
+        margin: 25px 0px 15px 0px;
+      }
+      
+
+      a {
+        font-weight: 500;
+        color: #363636;
+        margin-right: 15px;
+      }
+
+      a:hover {
+          color: black;
+      }
+  }

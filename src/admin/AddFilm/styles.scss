@@ -1,0 +1,78 @@
+.film-form {
+    margin: 30px 45px;
+
+    .item {
+        margin-bottom: 12px;
+        font-size: 17px;
+    }
+
+    label {
+        margin-right: 7px;
+    }
+
+    select, textarea, input {
+        padding: 3px;
+        border-radius: 7px;
+        border: 1px solid #5e5d5d;
+    }
+
+    .film-input {
+        width: 400px;
+    }
+
+    .check-input {
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    .check-label {
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+
+    textarea {
+        resize: none;
+        margin: 10px 0px;
+        width: 500px;
+        height: 200px;
+        padding: 10px;
+    }
+
+    .add-film-button {
+        padding: 4px 6px;
+        border-radius: 7px;
+        font-size: 17px;
+        margin-left: 170px;
+    }
+
+    .poster-url {
+        width: 149px;
+    }
+}
+
+.act-inf {
+    display: flex;
+}
+
+
+.act-cont {
+    display: flex;
+    
+    .act-inf {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .act-name {
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .add-actor {
+        margin: 0 auto;
+        display: flex;
+        padding: 4px 6px;
+        border-radius: 7px;
+        font-size: 17px;
+    }
+}

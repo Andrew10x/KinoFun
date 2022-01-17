@@ -1,0 +1,44 @@
+#comment-form {
+    .comment-form {
+        width: 500px;
+        border: 1px solid;
+        margin: 25px auto 60px auto;
+        padding: 10px 0px 20px 0px;
+        border-radius: 10px;
+        background: #ece8e3;
+    }
+
+    .input {
+        width: 450px;
+        margin: 10px 25px;
+        padding: 5px;
+        font-size: 17px;
+    }
+
+    .textarea {
+        width: 449px;
+        margin: 10px 25px;
+        padding: 5px;
+        height: 92px;
+        resize: none;
+        font-size: 17px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+
+        button {
+            padding: 5px;
+            margin: 0px 10px;
+            border-radius: 5px;
+            border: 1px solid #2c2c2c;
+            font-size: 17px;
+        }
+    }
+
+}
+
+.login-lorm {
+    top: 50%;
+}

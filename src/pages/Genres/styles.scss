@@ -1,0 +1,21 @@
+.genres {
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+
+    .title {
+        font-size: 22px;
+        margin: 5px;
+    }
+
+    input {
+        margin: 15px 5px 15px 15px;
+    }
+
+    button {
+        font-size: 20px;    
+        padding: 5px;
+        border-radius: 7px;
+        margin-top: 10px;
+    }
+}

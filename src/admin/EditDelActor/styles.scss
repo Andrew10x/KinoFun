@@ -1,0 +1,52 @@
+.actor-container {
+    margin: 100px auto;
+    display: grid;
+
+    #date {
+        margin: 10px auto;
+    }
+
+    ul {
+        list-style-type: none;
+        width: 420px;
+        margin: 0 auto;
+        font-size: 19px;
+
+        li {
+            border-bottom: 1px solid;
+            margin-top: 21px;
+            display: flex;
+            justify-content: space-between;
+
+            i {
+                margin-left: 5px;
+                img {
+                    width: 21px;
+                    margin: 0px;
+                    margin-bottom: 1px;
+                    display: none;
+                    cursor: pointer;
+                    opacity: 0.85;
+                }
+                
+            }
+        }
+
+        li:hover {
+            img {
+                display: inline;
+            }
+
+            img:hover {
+                opacity: 1;
+            }
+        }
+        
+        li:hover {
+            color:rgb(39, 39, 39);
+            border-bottom: 2px solid;
+        }
+
+        
+      }
+}
